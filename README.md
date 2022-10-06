@@ -1,7 +1,7 @@
 # alx-system_engineering-devops
 Project for Shell basics    
 In this project, I will be working with the basic shell commands such as navigation, manipulation, and others.     
-[TASK 0. Where am I?](./0-current_working_directory) - Write a script that prints the absolute path name of the current working directory.
+[TASK 0. Where am I?](./0X00-shell_basics/0-current_working_directory) - Write a script that prints the absolute path name of the current working directory.
 
 [TASK 1. What’s in there?](./1-listit) - Display the contents list of your current directory.
 
