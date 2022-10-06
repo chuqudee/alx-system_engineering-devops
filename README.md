@@ -18,17 +18,17 @@ Long format
 with user and group IDs displayed numerically        
 And hidden files (starting with .)        
 
-[TASK 6. Welcome](./0x00-shell_basics/6-firstdirectory) - Create a script that creates a directory named 'my_first_directory' in the /tmp/ directory.
+[TASK 6. Welcome](./0x00-shell_basics/6-firstdirectory) - Create a script that creates a directory named `my_first_directory` in the /tmp/ directory.
 
-[TASK 7. Betty in my first directory](./0x00-shell_basics/7-movethatfile) - Move the file betty from /tmp/ to /tmp/my_first_directory.
+[TASK 7. Betty in my first directory](./0x00-shell_basics/7-movethatfile) - Move the file `betty` from `/tmp/` to `/tmp/my_first_directory`.
 
-[TASK 8. Bye bye Betty](./0x00-shell_basics/8-firstdelete) - Delete the file betty. The file `betty` is in /tmp/my_first_directory.
+[TASK 8. Bye bye Betty](./0x00-shell_basics/8-firstdelete) - Delete the file `betty`. The file `betty` is in `/tmp/my_first_directory`.
 
 [TASK 9. Bye bye My first directory](./0x00-shell_basics/9-firstdirdeletion) - Delete the directory `my_first_directory` that is in the /tmp directory.
 
 [TASK 10. Back to the future](./0x00-shell_basics/10-back) - Write a script that changes the working directory to the previous one.
 
-[TASK 11. Lists](./0x00-shell_basics/11-lists) - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+[TASK 11. Lists](./0x00-shell_basics/11-lists) - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
 
 [TASK 12. File type](./0x00-shell_basics/12-file_type) - Write a script that prints the type of the file named `iamafile`. The file iamafile will be in the /tmp directory when we will run your script.
 
