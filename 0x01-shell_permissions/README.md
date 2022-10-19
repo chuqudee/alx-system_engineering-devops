@@ -35,5 +35,3 @@
 `Task 16-if_only` creates a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
 
 `Task 100-Star_Wars` creates a script that will play the StarWars IV episode in the terminal.
-
-`Task 101-man_` creates a Holberton man page.
