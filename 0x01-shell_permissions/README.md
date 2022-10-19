@@ -1,38 +1,39 @@
 # 0x01. Shell permissions
-`Task 0-current_working_directory` prints the current working directory.
 
-`Task 1-listit displays` the contents list of the current directory.
+`Task 0-iam_betty` creates a script that changes your user ID to betty.
 
-`Task 2-bring_me_home` changes the working directory to the user’s home directory.
+`Task 1-who_am_i` creates a script that prints the effective userid of the current user.
 
-`Task 3-listfiles` displays current directory contents in a long format.
+`Task 2-groups` creates a script that prints all the groups the current user is part of.
 
-`Task 4-listmorefiles` displays current directory contents, including hidden files (starting with .).
+`Task 3-new_owner` creates a script that changes the owner of the file hello to the user betty.
 
-`Task 5-listfilesdigitonly` displays current directory contents in long format, with user and group IDs displayed numerically and hidden files.
+`Task 4-empty` creates a script that creates an empty file called hello.
 
-`Task 6-firstdirectory` creates a script that creates a directory named holberton in the /tmp/ directory.
+`Task 5-execute` creates a script that adds execute permission to the owner of the file hello.
 
-`Task 7-movethatfile` moves the file betty from /tmp/ to /tmp/holberton.
+`Task 6-multiple_permissions` creates a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 
-`Task 8-firstdelete` deletes he file betty.
+`Task 7-everybody` creates a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 
-`Task 9-firstdirdeletion` deletes the directory holberton that is in the /tmp directory.
+`Task 8-James_Bond` creates a script that sets the permission to the file hello as follows: Owner: no permission at all, Group: no permission at all, Other users: all the permissions
 
-`Task 10-back` writes a script that changes the working directory to the previous one.
+`Task 9-John_Doe` creates a script that sets the mode of the file hello to -rwxr-x-wx.
 
-`Task 11-lists` writes a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+`Task 10-mirror_permissions` creates a script that sets the mode of the file hello the same as olleh’s mode.
 
-`Task 12-file_type` writes a script that prints the type of the file named iamafile.
+`Task 11-directories_permissions` creates a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 
-`Task 13-symbolic_link` creates a symbolic link to /bin/ls, named ls.
+`Task 12-directory_permissions` creates a script that creates a directory called dir_holberton with permissions 751 in the working directory.
 
-`Task 14-copy_html` creates a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+`Task 13-change_group` creates a script that changes the group owner to holberton for the file hello.
 
-`Task 15-lets_move` creates a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+`Task 14-change_owner_and_group` creates a script that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
 
-`Task 16-clean_emacs` creates a script that deletes all files in the current working directory that end with the character ~.
+`Task 15-symbolic_link_permissions` creates a script that changes the owner and the group owner of the file _hello to betty and holberton respectively.
 
-`Task 17-tree` creates a script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
+`Task 16-if_only` creates a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
 
-`Task 18-commas` writes a command that lists all the files and directories of the current directory, separated by commas (,).
+`Task 100-Star_Wars` creates a script that will play the StarWars IV episode in the terminal.
+
+`Task 101-man_` creates a Holberton man page.
